@@ -26,8 +26,7 @@ This is my personal portfolio website showcasing my skills, projects, and experi
 - Contact & social links
 
 ## 🌐 Live Demo
-(Coming Soon)
-
+- (https://arpit-portfolio-dev.netlify.app/)
 ## 📬 Contact
 - Email: kumararpit9438@gmail.com
 - LinkedIn: https://www.linkedin.com/in/arpitkumar-developer-ieee
