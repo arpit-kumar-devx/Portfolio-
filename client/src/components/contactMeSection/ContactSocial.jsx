@@ -8,7 +8,7 @@ const ContactSocial = () => {
     <div className="flex gap-4">
       <SingleContactSocial link="https://www.linkedin.com/in/arpitkumar-developer-ieee/" Icon={FaLinkedinIn} />
       <SingleContactSocial link="https://github.com/arpit-kumar-devx" Icon={FiGithub} />
-      <SingleContactSocial link="#" Icon={FaInstagram} />
+      <SingleContactSocial link="https://www.instagram.com/arpit_thakur_dev/" Icon={FaInstagram} />
     </div>
   );
 };

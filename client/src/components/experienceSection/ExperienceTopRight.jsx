@@ -12,7 +12,7 @@ const ExperienceTopRight = () => {
     <br />
     My experience includes working on real-world projects like{" "}
     <span className="font-bold text-white">
-      EduGate, Exam Portal, and TaxPal
+      EduGate, Exam Portal, TaxPal and TaxSphere
     </span>
     , where I contributed to both frontend and backend systems, emphasizing
     clean code, RESTful APIs, efficient database design, and responsive user

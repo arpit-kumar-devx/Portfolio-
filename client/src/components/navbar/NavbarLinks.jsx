@@ -3,11 +3,10 @@ import { Link } from "react-scroll";
 const links = [
   { link: "About Me", section: "about" },
   { link: "Skills", section: "skills" },
-   { link: "Key Achievements", section: "keyachievements" },
   { link: "Experience", section: "experience" },
   { link: "Projects", section: "projects" },
+  { link: "Key Achievements", section: "keyachievements" },
   { link: "Contact", section: "contact" },
- 
 ];
 
 const NavbarLinks = () => {

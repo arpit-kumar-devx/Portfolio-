@@ -1,6 +1,6 @@
 const KeyAchievementsText = () => {
   return (
-    <div className="my-10 lg:my-20">
+    <div className="my-10 lg:my-20 text-center">
       <h1 className="text-3xl lg:text-5xl font-bold text-orange mb-2">
         Key Achievements
       </h1>

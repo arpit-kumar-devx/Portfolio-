@@ -6,6 +6,16 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const experiences = [
   {
+    job: "Artificial Intelligence Trainee – ICT Academy",
+    responsibilities: [
+       "Completed comprehensive training in Artificial Intelligence, Generative AI, and Prompt Engineering.",
+       "Gained hands-on experience with AI tools, machine learning concepts, and intelligent application development.",
+        "Implemented practical AI use cases and worked on real-world problem-solving projects.",
+        "Collaborated in team-based learning environments while applying AI development and innovation best practices.",
+    ],
+
+  },
+  {
     job: "Full Stack Developer – Infosys Springboard",
     responsibilities: [
       "Contributed to end-to-end development of MEAN stack web applications.",
@@ -48,7 +58,7 @@ const AllExperiences = () => {
         return (
           <React.Fragment key={index}>
             <SingleExperience experience={experience} />
-            {index < 2 ? (
+            {index < experiences.length - 1 ? (
               <motion.div
                 variants={fadeIn("right", 0)}
                 initial="hidden"
@@ -57,9 +67,7 @@ const AllExperiences = () => {
               >
                 <FaArrowRightLong className="text-6xl text-orange lg:block sm:hidden" />
               </motion.div>
-            ) : (
-              ""
-            )}
+            ) : null}
           </React.Fragment>
         );
       })}

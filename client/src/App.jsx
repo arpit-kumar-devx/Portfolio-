@@ -21,9 +21,9 @@ function App() {
       <AboutMeMain />
       <SkillsMain />
       <SubSkills />
-      <KeyAchievementsMain />
       <ExperienceMain />
       <ProjectsMain />
+      <KeyAchievementsMain />
       <ContactMeMain />
       <FooterMain />
     </main>

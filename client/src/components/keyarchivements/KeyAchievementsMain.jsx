@@ -5,7 +5,7 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const KeyAchievementsMain = () => {
   return (
-    <div id="keyachievements" className="max-w-[1200px] mx-auto px-4">
+    <div id="keyachievements" className="max-w-[1200px] mx-auto px-4 flex flex-col items-center">
       <motion.div
         variants={fadeIn("down", 0)}
         initial="hidden"
